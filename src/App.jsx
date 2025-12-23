@@ -7,12 +7,14 @@ function App() {
   return (
     <div className="app-layout">
       <IntroSection />
+      
       {
-      // <div className="main-content">
-      //   <Sidebar />
-      //   <MainContent />
-      // </div>
-    }
+        //<main className="main-content">
+        //<Sidebar />
+        //<MainContent />
+        //</main>
+      }
+    
     </div>
   )
 }

@@ -1,6 +1,6 @@
 export default function IntroSection() {
   return (
-    <section className="intro-section">
+    <main className="intro-section">
       <div className="intro-content">
         <h1 className="intro-title">
           WCAG<br />
@@ -15,7 +15,7 @@ export default function IntroSection() {
           I want to show the simplicity of making accessible UI components to help developers implement an accessible web for everyone.
         </p>
       </div>
-    </section>
+    </main>
   )
 }
 
